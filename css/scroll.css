@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+
+    width: 10px;
+    height: 10px;
+    
+    z-index: 9999; /* Ensure scrollbar is on top of everything */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--border-color);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--shadow-color);
+  }
